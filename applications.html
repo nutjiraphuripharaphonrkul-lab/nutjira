@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การประยุกต์ใช้งาน - AI ในการสร้างเว็บไซต์</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Prompt', 'Segoe UI', Tahoma, sans-serif;
+        }
+        body {
+            background-color: #f8f5fc;
+            color: #4a4063;
+            line-height: 1.8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .banner-container {
+            width: 100%;
+            background: #2b1055;
+            text-align: center;
+            overflow: hidden;
+        }
+        .banner-container img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1600px;
+            height: auto;
+        }
+        nav {
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(114, 9, 183, 0.08);
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #6c5ce7;
+            text-decoration: none;
+            padding: 10px 24px;
+            margin: 0 8px;
+            border-radius: 30px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: #6c5ce7;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(108, 92, 231, 0.3);
+        }
+        .active {
+            background: #6c5ce7 !important;
+            color: #ffffff !important;
+            box-shadow: 0 4px 10px rgba(108, 92, 231, 0.3);
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(114, 9, 183, 0.05);
+            flex: 1;
+            width: 90%;
+        }
+        h2 {
+            color: #2b1055;
+            margin-bottom: 20px;
+            font-size: 24px;
+            border-left: 5px solid #6c5ce7;
+            padding-left: 15px;
+        }
+        p { margin-bottom: 15px; color: #635b75; }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 12px;
+            color: #635b75;
+        }
+        li strong {
+            color: #2b1055;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2b1055;
+            color: #ffffff;
+            font-size: 14px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner-container">
+        <img src="images/ban.png" alt="แบนเนอร์การประยุกต์ใช้ AI ในการสร้างเว็บไซต์">
+    </div>
+
+    <nav>
+        <a href="index.html">หน้าแรก</a>
+        <a href="applications.html" class="active">การประยุกต์ใช้งาน</a>
+        <a href="future.html">อนาคตและสรุป</a>
+    </nav>
+
+    <div class="container">
+        <h2>ด้านต่างๆ ที่ AI เข้ามาช่วยในการสร้างเว็บไซต์</h2>
+        <p>การนำปัญญาประดิษฐ์ (AI) มาประยุกต์ใช้ในการพัฒนาเว็บไซต์ สามารถแบ่งออกเป็นส่วนสำคัญได้ดังนี้ครับ:</p>
+        
+        <ul>
+            <li><strong>1. การออกแบบเลย์เอาต์และโครงสร้าง (UI/UX Design):</strong> AI ช่วยแนะนำและออกแบบโครงสร้างหน้าเว็บ รวมถึงการจัดวางองค์ประกอบให้ออกมาสวยงามและใช้งานง่ายตามหลักสากลได้อย่างรวดเร็ว</li>
+            <li><strong>2. การเขียนโค้ดอัตโนมัติ (Code Generation):</strong> เครื่องมือผู้ช่วยอัจฉริยะสามารถแปลงคำสั่งข้อความ (Prompt) ให้กลายเป็นโค้ด HTML, CSS หรือ JavaScript ได้อย่างแม่นยำ ช่วยลดระยะเวลาในการพัฒนา</li>
+            <li><strong>3. การสร้างสรรค์เนื้อหาและรูปภาพ (Content & Assets):</strong> AI ช่วยคิดคำโปรโมท บทความ หรือสร้างรูปภาพประกอบเว็บไซต์ที่มีเอกลักษณ์เฉพาะตัวได้อย่างไร้ขีดจำกัด</li>
+            <li><strong>4. ระบบสนทนาอัจฉริยะ (AI Chatbot):</strong> การฝังระบบตอบกลับอัตโนมัติที่ขับเคลื่อนด้วย AI เพื่อช่วยดูแลและตอบคำถามผู้เข้าชมเว็บไซต์ได้ตลอด 24 ชั่วโมง</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 AI Web Development Guide. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
